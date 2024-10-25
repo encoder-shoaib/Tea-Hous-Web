@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- font awesome link  -->
+    <!-- google fon link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/8bcfb398b0.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn lin  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -25,9 +28,33 @@
     </script> 
 
 </head>
-<body>
-    <header>
-        <h1 class="text-5xl">test</h1>
+<body class="max-w-screen-xl m-auto px-16 lg:px-20">
+    <header class="flex justify-between">
+        <!-- header-text -->
+        <div class="">
+            <h1 class="text-7xl font-extrabold">It's good <br>
+                tea time at The 
+                <br>Tea House</h1>
+                <br>
+                <p class="text-xs font-medium text-[#777777]">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <br>
+                <button class="p-5 py-18 border rounded-xl bg-gradient-to-r from-[#FF0000] to-[#FF8938]"">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <!-- header-img -->
+        <div class="relative">
+            <img src="./images/banner.png" alt="">
+            <div class="flex items-center gap-5 shadow-lg border rounded-lg px-2 py-2 md:px-10 lg:py-4 bg-[#FFFFFF] absolute top-28 md:top-80  md:left-32 lg:left-16 ">
+                <div >
+                    <i class="fa-regular fa-star text-2xl text-[#FFC850]"></i>
+                </div>
+                <div>
+                    <h1>5.00</h1>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>                
+        </div>
     </header>
     <main>
 
